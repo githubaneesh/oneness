@@ -1,0 +1,106 @@
+  /*.lk_studies {
+    display        : flex;
+    justify-content: space-between;
+    width          : 80%;
+    height         : 60px;
+    align-items    : center;
+    padding        : 0 30px;
+    background     : rgba(0, 0, 0, 0.05);
+    border-radius  : 5px;
+    margin-top     : 50px;
+    button img { vertical-align: middle; }
+  }
+
+  .loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background: rgb(233, 240, 255);
+  }
+
+  .dashboard-containeer {
+    min-height: calc(100vh - 141px);
+    .study-type {
+      h2 { 
+        color: rgba(0,0,0,0.6);
+        font-weight: 400;
+      }
+    }
+  }*/
+.home-wrapper{
+    background: #ffffff;
+    min-height: calc(100vh);
+    flex-direction: row;
+    
+  .topImg-container
+  {
+    /*background: url(../../../assets/images/home/top_image.png);*/
+    width: 100%;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    img{
+      width: 100%;
+    }
+    
+  }
+  .nav-button-container
+  {
+    width: 100%;
+    margin-top: 50px;
+    .reg-label{
+      color:  #671a95;
+      text-align: center;
+    }
+    .nav-button-con
+    {
+      width: 80%;
+      margin: auto;
+
+      .nav-button
+      {
+        height: 50px;        
+        background-color: black;
+        flex-direction: column;       
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        cursor: pointer;
+        label{
+          float: none;
+          margin: 0 auto;
+          display: block;
+          color: white;
+          font-size: 16pt;
+          font-weight: normal;
+          cursor: pointer;
+        }
+
+      }
+      .btn_violet{background-color: #f18eb1}
+      .btn_blue{background-color: #12b3d8}
+      .btn_green{background-color: #9dca36}
+
+
+    }
+  }
+  .bottomImg-container
+  {
+    width: 100%;
+   /* background: url(../../../assets/images/home/bottom_image.png);*/
+    width: 100%;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    color: #5a5a5a;
+    img{
+      width: 100%;
+    }
+  }
+
+
+}
+
+

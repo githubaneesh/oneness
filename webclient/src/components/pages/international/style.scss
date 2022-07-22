@@ -1,0 +1,45 @@
+ *{
+   outline: transparent;
+ }
+ .row_margin0{margin-right:0px;margin-left:0px; }
+ .form_container{
+    background: #ffffff;    
+    flex-direction: row;  
+    padding: 20px; 
+    h3{color: #006e9d;}
+    .field_item
+    {
+      margin: 20px 0px;
+      .field_label{
+        color: #5b5a5a;
+        font-weight: 900;
+        span.mandatory{
+          color: #ff0000
+        }
+      }
+      .particiants-col, .travel{
+       /* display: flex;*/
+      }
+    }
+    textarea{
+      padding: .5em;
+      line-height: 1.4;
+      background-color: #f9f9f9;
+      border: 1px solid #e5e5e5;
+      border-radius: 3px;
+      transition: .35s ease-in-out;
+    }
+    .react-datepicker-wrapper{
+      input{
+        padding: .5em;
+        line-height: 1.4;
+        background-color: #f9f9f9;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        transition: .35s ease-in-out;
+      }
+    }
+    
+}
+
+
