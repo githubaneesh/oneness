@@ -1,2 +1,9 @@
-# LookLookAT-WebClient
-The web client for looklook analytics tool in reactjs
+# ONENESS-WebClient
+The web client for oneness website in reactjs
+
+## To Run ## <br/>
+
+npm start
+
+## To Build ##<br/>
+npm run build --prod
